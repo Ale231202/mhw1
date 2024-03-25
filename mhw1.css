@@ -1,0 +1,460 @@
+  body {
+    margin: 0px;
+    font-family: Helvetica;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  #background_nav1 {    
+    height: 31px;
+    background-color: #efeff0;
+  }
+  
+  #container_nav1 {
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+  }
+  
+  .nav{
+    color: #66676e;
+    font-weight: bold;
+    font-size: 74.5%;
+    padding-top: 0.2%;
+    flex-shrink: 0;
+  }
+
+  #center_nav {
+    margin-right: 1.5%;
+  }
+
+  header {
+    height: 55px;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .container_categoria {
+    width: 22.2%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .categoria {
+    font-size: 96%;
+    font-weight: bold;
+    margin-top: 2.8%;
+    padding: 3% 6.7%;
+  }
+  
+  .categoria:hover {
+    background-color: #efeff0;
+  }
+  
+  
+  #container_logo {
+    display: flex;
+    width: 22.2%;
+    /*margin-right: 2.7%;*/
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo {
+    height: 25px;
+    /*margin-right: 11%;*/
+    margin-left: 3%;
+    padding-right: 9%;
+    border-right: 1px solid grey;
+  }
+
+  #logo:hover {
+    cursor: pointer;
+  }
+  
+  #container_logo a {
+    font-size: 90%;
+  }
+
+  #container_logo em {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 95%;
+    color: white;
+    background-color: black;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  
+  #container_opzioni_account {
+    display: flex;
+    width: 22.2%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .material-symbols-outlined {
+    margin-left: 3.5%;
+    border: 2px solid white;
+  }
+
+  #opzioni_account .material-symbols-outlined:hover {
+    border: 2px solid black;
+  }
+
+  #lang {
+    text-transform: uppercase;
+    font-size: 80%;
+    margin-right: -4%;
+  }
+
+  #navigazione {
+    height: 42px;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #container_opzioni {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2%;
+  }
+  
+  .opzioni {
+    flex-shrink: 0;
+    font-family: calibri;
+    margin-right: 3.8%;
+    border-bottom: 2px solid white;
+  }
+  
+  .opzioni:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  .ricerca {
+    display: flex;
+    height: 100%;
+    width: 21.5%;
+    align-items: center;
+    border: 1px solid black;
+  }
+  
+  #ricerca .material-symbols-outlined {
+    margin-left: 2%;
+  }
+
+  #input_ricerca {
+    font-size: 90%;
+    border: 0px;
+  }
+  
+  #input_ricerca:focus {
+    outline: none;
+  }
+  
+  #primo_piano {
+    height: 537px;
+    background-color: rgb(248, 190, 18);
+  }
+  
+  #img_primo_piano {
+    background-image: url(https://img01.ztat.net/cnt/contentful-apps/uploads/43790edd-447a-4852-8ae6-e90cc62c68e1.jpeg?imwidth=960);
+    background-size: cover;
+    width: 693px; /*45.7%*/
+    height: 93%; /*93%*/
+    position: relative;
+    left: 10.55%;
+    top: 6.8%;
+  }
+  
+  #primo_piano .material-symbols-outlined {
+    background-color: white;
+    border-color: #fafafa;
+    font-size: 238%;
+    height: 7.4%;
+    width: 5.6%;
+    display: block;
+    position: relative;
+    top: 46.2%;
+    left: 90.5%;
+  }
+
+  #primo_piano_icons {
+    height: 9.1%;
+    position: relative;
+    top: -8.1%;
+    left: 100%;
+  }
+  
+  #primo_piano .material-symbols-outlined:hover {
+    background-color: #d0d1d3;
+    border-color: #d0d1d3;
+  }
+
+  #title_info_news {
+    width: 80%;
+    font-size: 169%;
+    font-weight: bold;
+    letter-spacing: -0.35px;
+    position: relative;
+    top: -6%;
+    left: 104.7%;
+  }
+  
+  #info_news {
+    width: 80%;
+    font-family: "Martel";
+    font-size: 173.5%;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    position: relative;
+    top: -6%;
+    left: 104.7%;
+  }
+
+  #primo_piano span{
+    font-size: 84%;
+    font-weight: bold;
+    position: relative;
+    top: 42.2%;
+    left: 104.7%;
+  }
+
+  #primo_piano .container_categoria {
+    width: 68.3%;
+    height: 10%;
+    position: relative;
+    top: 44.5%;
+    left: 104.7%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #primo_piano .categoria {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: block;
+    text-align: center;
+    height: 42%;
+    width: 17.5%;
+    margin: 0;
+    padding-top: 3.3%;
+    padding-bottom: 2.1%;
+    border: 1.5px solid rgb(26, 26 , 26);
+  }
+
+  #primo_piano .categoria:hover {
+    background-color: rgba(26, 26, 26, 0.6);
+  }
+
+  article {
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+  }
+
+  article h1 {
+    margin-top: 4.2%;
+  }
+
+  .title_section {
+    font-size: 166.8%;
+  }
+
+  article section {
+    width: 85%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .container_brand {
+    margin-right: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .brand {
+    width: 500%;
+    margin-bottom: 25%;
+  }
+
+  .brand span{
+    font-family: calibri;
+    border-bottom: 2px solid white;
+  }
+  
+  .brand span:hover {
+    border-bottom: 2px solid black;
+  }
+
+  #iscrizione_e_preferenze {
+    margin: 0;
+    padding-left: 10.5%;
+    padding-right: 10.5%;
+    background-color: rgb(239, 239, 240);
+    height: 432px;
+    display: flex;
+  }
+
+
+  #iscrizione {
+    background-color: white;
+    height: 409px;
+    width: 57.8%;
+    position: relative;
+    margin: 0;
+    top: 5.3%;
+    left: 42.2%;
+  }
+
+  #left_side {
+    width: 72%;
+    position: absolute;
+    top: 1%;
+    left: -73%; 
+  }
+
+   #title_newsletter {
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    position: relative;
+   }
+
+   #newsletter-1 {
+    font-family: "Martel";
+    font-size: 138%;
+    font-weight: normal;
+    margin-top: 3%;
+   }
+
+   #newsletter-2 {
+    font-family: "Martel";
+    font-size: 91.85%;
+    display: block;
+    margin-top: 4%;
+  }
+
+   #right_side {
+    position: relative;
+    right: 18%;
+    width: 80%;
+    left: 8%;
+   }
+
+   #email {
+    height: 5%;
+    position: relative;
+    top: 6%;
+   }
+
+   #email div {
+    font-size: 77%;
+    text-align: center;
+    padding: 0.7%;
+    width: 20%;
+    border: 1px solid black;
+   }
+
+   #email .ricerca {
+    background-color: white;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 200%;
+   }
+
+   #email input {
+    border: 0;
+  }
+
+   #email input:focus {
+    outline: none;
+  }
+
+  #preferenze {
+    position: relative;
+    top: 22%;
+    display: flex;
+  }
+
+  #preferenza_moda {
+    margin-left: 25.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #preferenza_moda span {
+    margin-top: 15%;
+  }
+
+  #gest_1 {
+    font-weight: bold;
+  }
+
+  #gest_2 {
+    font-family: "Martel";
+    font-size: 85%;
+  }
+
+  #opzioni_contenuto {
+    position: relative;
+    top: 25%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+  }
+
+  #iscrivimi {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+    top: 35%;
+  }
+
+  #policy {
+    font-size: 80%;
+    color: grey;
+    position: relative;
+    top: 40%;
+  }
+
+  #policy em {
+    color: black;
+    font-style: normal;
+  }
+
+  #ulteriori_info {
+    background-color: rgb(99, 40, 224);
+    height: 520px;
+    width: 100%;
+    margin: 0;
+    margin-top: -1%;
+  }
+
+  footer {
+    height: 198px;
+    background-color: rgb(26, 26, 26);
+  }
